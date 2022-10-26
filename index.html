@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random</title>
+    <link rel="stylesheet" href="./css/zero.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>RANDOM</h1>
+        <label for="">from</label>
+        <input id="from" type="number" onkeyup="this.value = this.value.replace(/[^0-9]/g,'');">
+        <label for="">to</label>
+        <input id="to" type="number" onkeyup="this.value = this.value.replace(/[^0-9]/g,'');">
+        <div class="resultat">
+            <label for="">result : </label>
+            <span id="result"></span>
+        </div>
+        <button>To generate</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
